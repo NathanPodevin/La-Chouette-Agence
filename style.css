@@ -294,17 +294,26 @@ a:hover {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: 3px 8px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    display: flex;
+    margin: auto;
+}
+
+.navbar-brand p {
+    font-family: 'Gentium Book Basic','Roboto',"Arial","Comic Sans MS", "Georgia", "Trebuchet MS", "Verdena";
+    font-size: 3.5rem;
+    color: #000000;
 }
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
+    margin: 0 10px 0 0;
     display: inline;
+    height: 50px;
 }
 
 .navbar-brand img[src$=svg] {
