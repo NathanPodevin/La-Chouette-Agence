@@ -305,7 +305,7 @@ a:hover {
 
 .navbar-brand p {
     font-family: 'Gentium Book Basic','Roboto',"Arial","Comic Sans MS", "Georgia", "Trebuchet MS", "Verdena";
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     color: #000000;
 }
 
@@ -660,7 +660,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -786,6 +786,18 @@ h4 {
 .tc-white {
     color: #F3976C!important;
 }
+
+.title-description{
+    color: #FFF;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.title-description strong {
+    color: #F3976C;
+    font-size: bold;
+}
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
