@@ -52,6 +52,10 @@ a:hover {
     padding: 50px;
 }
 
+.bloc-md p {
+    font-size: 1.4rem;
+}
+
 .bloc-sm {
     padding: 20px 50px;
 }
@@ -266,10 +270,6 @@ a:hover {
 
 .voffset {
     margin-top: 30px;
-}
-
-.voffset-lg {
-    margin-top: 80px;
 }
 
 .row-no-gutters {
@@ -700,7 +700,7 @@ p {
 }
 
 .cta-hero {
-    margin-top: 22px;
+    margin-top: 30px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -723,6 +723,14 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+}
+
+.col-xs-12 h3 {
+    font-style: italic;
+    font-weight: 600;
+    line-height: 2.6rem;
+    text-transform:none;
+    font-size: 1.8rem;
 }
 
 .med-width-whitespace {
@@ -791,11 +799,11 @@ h4 {
     color: #FFF;
     font-size: 1.8rem;
     text-align: center;
+    margin-top: 30px;
 }
 
 .title-description strong {
-    color: #F3976C;
-    font-weight: bold;
+    font-weight:500;
 }
 
 
