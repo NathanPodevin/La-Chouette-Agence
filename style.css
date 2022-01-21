@@ -708,14 +708,20 @@ p {
     font-weight: 700;
 }
 
+#bloc-8 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 15px auto 15px auto;
 }
 
 .social-icon {
     height: 40px;
     width: 40px;
+    font-size: 30px;
 }
 
 h2 {
