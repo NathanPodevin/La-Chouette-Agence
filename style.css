@@ -118,10 +118,7 @@
         float: left;
         margin-left: 10px;
     }
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
+
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
@@ -196,12 +193,11 @@
     }
 
     body .bloc-md h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
         padding: 0px 20px 0px 20px;
     }
 
     body .bloc-md p {
-        padding: 0px 20px 0px 20px;
         font-size: 1.3rem;
     }
 
@@ -209,6 +205,27 @@
         font-size: 1.7rem;
         padding: 0px 20px 0px 20px;
     }
+
+    body .col-sm-12 p {
+        font-size: 1.3rem;
+    }
+
+    body .bloc-lg {
+        padding: 30px 20px 30px 20px;
+    }
+
+    body .bloc-lg h2 {
+        font-size: 2rem;
+    }
+
+    body .bloc-lg p {
+        font-size: 1.3rem;
+    }
+
+    body .portfolio-row {
+        margin-top: 0px;
+    }
+
 }
 
 body {
@@ -244,17 +261,11 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-}
-
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .bloc-lg {
@@ -270,7 +281,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 20px 20px;
 }
 
 .bg-center,
@@ -944,7 +955,6 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
     margin-top: 50px;
 }
 
