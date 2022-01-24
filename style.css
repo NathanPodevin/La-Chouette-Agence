@@ -226,6 +226,15 @@
         margin-top: 0px;
     }
 
+    body .mg-md {
+        padding: 0px 20px 0px 20px;
+    }
+
+    body .social {
+        display: flex;
+        justify-content: space-around;
+    }
+
 }
 
 body {
