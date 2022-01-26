@@ -55,7 +55,7 @@
     }
 
     body .navbar-brand p {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .navbar.row {
@@ -106,8 +106,8 @@
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .navbar-brand img {
-        max-height: 40px;
+    body .navbar-brand img {
+        height: 40px;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -366,23 +366,6 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
-}
-
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -536,14 +519,9 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
     padding: 3px 8px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
     line-height: 44px;
     display: flex;
-    margin: auto;
 }
 
 .navbar-brand p {
@@ -553,14 +531,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: 0 10px 0 0;
-    display: inline;
     height: 50px;
-}
-
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
 }
 
 .nav-center .navbar-brand img {
