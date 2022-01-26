@@ -158,6 +158,15 @@
     .close-lightbox {
         display: inline-block;
     }
+
+    body .top-banniere {
+        height: 550px;
+    }
+
+    body .bg-presentation {
+        height: 710px;
+    }
+
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
         padding-top: 60px;
@@ -226,10 +235,6 @@
         margin-top: 0px;
     }
 
-    body .mg-md {
-        padding: 0px 20px 0px 20px;
-    }
-
     body .social {
         display: flex;
         justify-content: space-around;
@@ -275,6 +280,11 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+
+.center-logo {
+    width: 100px;
+    height: 100px;
 }
 
 .bloc-lg {
@@ -953,6 +963,7 @@ h4 {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
+    height: 60px;
 }
 
 .white {
@@ -967,12 +978,17 @@ h4 {
     margin-top: 50px;
 }
 
+.img-responsive {
+    height: 270px;
+    width: 270px;
+}
+
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-    background-color: rgba(87, 87, 87, 0.7);
+.blue-background {
+    background-color: #364577;
     padding: 40px 40px 40px 40px;
 }
 
@@ -1053,8 +1069,17 @@ h4 {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
+.top-banniere {
+    height: 540px;
+}
+
+.bot-banniere {
+    height: 300px;
+}
+
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+    height: 550px;
 }
 
 @media (max-width: 1024px) {
