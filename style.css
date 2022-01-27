@@ -214,8 +214,14 @@
         padding: 0px 20px 0px 20px;
     }
 
-    body .col-sm-12 p {
+    body .bloc-lg #contact-description {
         font-size: 1.3rem;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    body .col-sm-12 h1 {
+        font-size: 3rem;
     }
 
     body .bloc-lg {
@@ -239,6 +245,9 @@
         justify-content: space-around;
     }
 
+    body .form-control {
+        width: 100%;
+    }
 }
 
 body {
@@ -286,8 +295,35 @@ a:hover {
     height: 100px;
 }
 
+.form-adress {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#form_1 {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+#form_1 p {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+#form_1 .btn {
+    width: 50%;
+    margin: auto;
+}
+
+body .form-adress .col-sm-6 {
+    width: 100%;
+}
+
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -865,6 +901,15 @@ a {
     font-size: 36px;
 }
 
+#adress {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.col-sm-12 .contact-title {
+    color: #FFF;
+}
+
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -941,7 +986,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
@@ -998,7 +1043,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
     position: relative;
 }
 
